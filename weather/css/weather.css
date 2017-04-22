@@ -1,0 +1,285 @@
+html {
+  background-color: transparent;
+  color: black;
+  font-family: 'Dosis', sans-serif;
+}
+
+@font-face {
+  font-family: 'Dosis';
+  src: url('../Dosis/Dosis-Regular.ttf');
+}
+
+#bg {
+  position: absolute;
+}
+
+.weather {
+  position: absolute;
+  margin-left: 0px;
+  white-space: nowrap;
+}
+
+.DayIcons, #Clock, .precipitation, #HourlyIcon, #Date, .days, .highlo, #HourlyDesc, #RainInfo, #City, #DescToday, #RealFeel, #Humidity, #TempNow, #Sunrise, #Sunset, #HighToday, #LowToday, #WindSpeed, #WindDirection, #UV, #dew {
+  display: none;
+}
+
+
+/*Forecast*/
+
+.DayIcons {
+  position: absolute;
+  top: 10px;
+  left: 82px;
+}
+
+#Day1 {
+  position: absolute;
+  top: 107px;
+  left: -20px;
+}
+
+#Day2 {
+  position: absolute;
+  top: 107px;
+  left: 74px;
+}
+
+#Day3 {
+  position: absolute;
+  top: 50px;
+  left: 30px;
+}
+
+#Day4 {
+  position: absolute;
+  top: 50px;
+  left: 85px;
+}
+
+.days {
+  position: absolute;
+  left: -55px;
+  top: 5px;
+  font-size: 15px;
+}
+
+#ForecastDay1 {
+  position: absolute;
+  top: 116px;
+  left: -8px;
+  width: 165px;
+  text-align: center;
+  font-size: 8px;
+}
+
+#ForecastDay2 {
+  position: absolute;
+  top: 116px;
+  left: 37px;
+  width: 272px;
+  text-align: center;
+  font-size: 8px;
+}
+
+#ForecastDay3 {
+  position: absolute;
+  top: 22px;
+  font-size: 14.9px;
+  left: 3px;
+  width: 370px;
+  text-align: center;
+}
+
+#ForecastDay4 {
+  position: absolute;
+  top: 22px;
+  font-size: 14.8px;
+  left: 3px;
+  width: 475px;
+  text-align: center;
+}
+
+.highlo {
+  position: absolute;
+  left: -52px;
+  top: 5px;
+  font-size: 8px;
+}
+
+#Day1High {
+  position: absolute;
+  top: 126px;
+  left: 75px;
+}
+
+#Day2High {
+  position: absolute;
+  top: 126px;
+  left: 172px;
+}
+
+#Day3High {
+  position: absolute;
+  top: 40px;
+  left: 163px;
+}
+
+#Day4High {
+  position: absolute;
+  top: 40px;
+  left: 217px;
+}
+
+.lowtemp {
+  color: red;
+}
+
+
+/*Other Weather*/
+
+#City {
+  position: absolute;
+  top: 13px;
+  left: 30px;
+  z-index: 1;
+}
+
+#WindSpeed {
+  position: absolute;
+  top: 97px;
+  left: 15px;
+  font-size: 10px;
+}
+
+#Clock {
+  position: absolute;
+  top: 40px;
+  font-family: 'Ek Mukta', sans-serif;
+  left: 220px;
+  width: 80px;
+  text-align: center;
+  font-size: 30px;
+}
+
+#Date {
+  position: absolute;
+  top: 80px;
+  left: 220px;
+  width: 80px;
+  text-align: center;
+  font-size: 12px;
+}
+
+#RainInfo {
+  position: absolute;
+  top: 120px;
+}
+
+#DescToday {
+  position: absolute;
+  top: 135px;
+}
+
+#RealFeel {
+  position: absolute;
+  top: 150px;
+}
+
+#Humidity {
+  position: absolute;
+  top: 165px;
+}
+
+#Sunrise {
+  position: absolute;
+  top: 195px;
+}
+
+#Sunset {
+  position: absolute;
+  top: 210px;
+}
+
+#WindDirection {
+  position: absolute;
+  top: 275px;
+}
+
+#UV {
+  position: absolute;
+  top: 290px;
+}
+
+#dew {
+  position: absolute;
+  top: 305px;
+}
+
+.precipitation {}
+
+.hilot {
+  position: absolute;
+  top: 55px;
+  left: 240px;
+}
+
+#HighToday {
+  position: absolute;
+  top: 0px;
+  left: 15px;
+  z-index: 1;
+  font-size: 12px;
+  color: white;
+  opacity: 1;
+}
+
+#LowToday {
+  position: absolute;
+  top: 0px;
+  left: 39px;
+  z-index: 1;
+  font-size: 12px;
+  color: grey;
+}
+
+#bg {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: none;
+}
+
+#TempNow {
+  width: 150px;
+  text-align: center;
+  font-size: 25px;
+  position: absolute;
+  top: 66px;
+  z-index: 1;
+}
+
+#HourlyIcon {
+  position: absolute;
+  top: 3px;
+  left: 36px;
+}
+
+#HourlyIcon img {
+  width: 80px;
+}
+
+#HourlyDesc {
+  position: absolute;
+  top: 98px;
+  font-size: 16px;
+  font-weight: 900;
+  text-align: center;
+  width: 150px;
+}
+
+#Rude {
+  width: 320px;
+  text-align: center;
+  font-size: 30px;
+}

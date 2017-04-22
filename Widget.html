@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Weather Forecast</title>
+<link href="weather/Dosis" rel="stylesheet">
+<script>
+if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+}
+else{
+
+    var sCityCodes = "38671"; ///Set your location here.
+    var refreshrate = 50000;
+    var wwidget = false;
+    var customcolor="none";
+    var descopacity=".5";
+    var descsize = "10px";
+}
+    var TwentyFourHourClock = "false";
+    var kph = false;
+    var language = "en";
+      var sUnit = false;
+</script>
+<link rel="stylesheet" type="text/css" href="weather/css/weather.css">
+</head>
+<body>
+<div id="bg"></div>
+<div class="weather">
+	<div id="forecast">
+		<div class="DayIcons">
+			<div id="Day1"></div>
+			<div id="Day2"></div>
+			<div id="Day3"></div>
+			<div id="Day4"></div>
+			<div id="Day5"></div>
+			<div id="Day6"></div>
+			<div id="Day7"></div>
+		</div>
+		<div class="days">
+			<div id="ForecastDay1"></div>
+			<div id="ForecastDay2"></div>
+			<div id="ForecastDay3"></div>
+			<div id="ForecastDay4"></div>
+			<div id="ForecastDay5"></div>
+			<div id="ForecastDay6"></div>
+			<div id="ForecastDay7"></div>
+		</div>
+		<div class="highlo">
+			<div id="Day1High"></div>
+			<div id="Day2High"></div>
+			<div id="Day3High"></div>
+			<div id="Day4High"></div>
+			<div id="Day5High"></div>
+			<div id="Day6High"></div>
+			<div id="Day7High"></div>
+		</div>
+		<div class="precipitation">
+			<div id="Precip1"></div>
+			<div id="Precip2"></div>
+			<div id="Precip3"></div>
+			<div id="Precip4"></div>
+			<div id="Precip5"></div>
+			<div id="Precip6"></div>
+			<div id="Precip7"></div>
+		</div>
+</div>
+
+	<div id="HourlyDesc"></div>
+	<div id="Clock"></div>
+	<div id="Date"></div>
+	<div id="City"></div>
+	<div id="RainInfo"></div>
+	<div id="DescToday"></div>
+	<div id="RealFeel"></div>
+	<div id="Humidity"></div>
+	<div id="TempNow"></div>
+	<div id="HourlyIcon"></div>
+<div class="hilot">
+	<div id="HighToday"></div>
+	<div id="LowToday"></div>
+</div>
+	<div id="WindSpeed"></div>
+	<div id="WindDirection"></div>
+	<div id="UV"></div>
+	<div id="dew"></div>
+	<div id="Sunrise"></div>
+	<div id="Sunset"></div>
+	<div id="Rude"></div>
+</div>
+
+<script src="weather/js/jQuery.js"></script>
+<script src="weather/js/lang.js"></script>
+<script src="weather/js/weather.js"></script>
+<script src="weather/js/clock.js"></script>
+
+<script>
+document.getElementById('Rude').style.fontSize=descsize;
+document.getElementById('Rude').style.opacity=descopacity;
+if(wwidget==true){
+var css = "html{color:white}";
+var htmlDiv = document.createElement('div');
+htmlDiv.innerHTML = '<p>foo</p><style>' + css + '</style>';
+document.getElementsByTagName('head')[0].appendChild(htmlDiv.childNodes[1]);
+
+    }
+    if(customcolor !== "none"){
+    var css = "html{color:"+customcolor+"}";
+	var htmlDiv = document.createElement('div');
+	htmlDiv.innerHTML = '<p>foo</p><style>' + css + '</style>';
+	document.getElementsByTagName('head')[0].appendChild(htmlDiv.childNodes[1]);
+    }
+    else{
+    }
+</script>
+
+</body>
+</html>

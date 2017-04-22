@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+ 
+	<dict>
+		<key>default</key>
+		<string></string>
+		<key>label</key>
+		<string>Enter code here</string>
+		<key>name</key>
+		<string>sCityCodes</string>
+		<key>type</key>
+		<string>edit</string>
+	</dict>
+	<dict>
+		<key>default</key>
+		<string>30px</string>
+		<key>label</key>
+		<string>Desc Size</string>
+		<key>name</key>
+		<string>descsize</string>
+		<key>type</key>
+		<string>edit</string>
+	</dict>
+	<dict>
+		<key>default</key>
+		<string>1.0</string>
+		<key>label</key>
+		<string>Desc Opacity</string>
+		<key>name</key>
+		<string>descopacity</string>
+		<key>options</key>
+		<dict>
+			<key>1.0</key>
+			<string>1.0</string>
+			<key>0.9</key>
+			<string>0.9</string>
+			<key>0.8</key>
+			<string>0.8</string>
+			<key>0.7</key>
+			<string>0.7</string>
+			<key>0.6</key>
+			<string>0.6</string>
+			<key>0.5</key>
+			<string>0.5</string>
+			<key>0.4</key>
+			<string>0.4</string>
+			<key>0.3</key>
+			<string>0.3</string>
+			<key>0.2</key>
+			<string>0.2</string>
+			<key>0.1</key>
+			<string>0.1</string>
+		</dict>
+		<key>type</key>
+		<string>select</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>wwidget</string>
+		<key>type</key>
+		<string>switch</string>
+		<key>label</key>
+		<string>White Text</string>
+		<key>default</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>default</key>
+		<string></string>
+		<key>label</key>
+		<string>Custom Color</string>
+		<key>name</key>
+		<string>customcolor</string>
+		<key>type</key>
+		<string>edit</string>
+	</dict>
+	<dict>
+		<key>default</key>
+		<string>10 Min</string>
+		<key>label</key>
+		<string>Weather Refresh</string>
+		<key>name</key>
+		<string>refreshrate</string>
+		<key>options</key>
+		<dict>
+			<key>1 Min</key>
+			<string>60000</string>
+			<key>2 Min</key>
+			<string>120000</string>
+			<key>0.8</key>
+			<string>0.8</string>
+			<key>0.7</key>
+			<string>0.7</string>
+			<key>0.6</key>
+			<string>0.6</string>
+			<key>0.5</key>
+			<string>0.5</string>
+			<key>0.4</key>
+			<string>0.4</string>
+			<key>0.3</key>
+			<string>0.3</string>
+			<key>0.2</key>
+			<string>0.2</string>
+			<key>10 Min</key>
+			<string>600000</string>
+		</dict>
+		<key>type</key>
+		<string>select</string>
+	</dict>
+	
+</array>
+</plist>
